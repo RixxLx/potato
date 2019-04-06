@@ -57,6 +57,7 @@ do
 	for ((i=$WORK; i>0; i--))
 	do
 		printf "$time_left" $i "work"
+		notify-send "Get stuff done" "You can do this"
 		sleep 1m
 	done
 
@@ -71,6 +72,7 @@ do
 	for ((i=$PAUSE; i>0; i--))
 	do
 		printf "$time_left" $i "pause"
+		notify-send "Time for a break" "Take a sip and stretch your arms"
 		sleep 1m
 	done
 
