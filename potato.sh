@@ -2,7 +2,7 @@
 
 WORK=50
 PAUSE=10
-INTERACTIVE=true
+INTERACTIVE=false
 MUTE=false
 
 show_help() {
