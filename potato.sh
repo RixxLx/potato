@@ -1,7 +1,7 @@
 #!/bin/bash
 
-WORK=25
-PAUSE=5
+WORK=50
+PAUSE=10
 INTERACTIVE=true
 MUTE=false
 
