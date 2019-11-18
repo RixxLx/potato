@@ -58,7 +58,7 @@ do
 	do
 		printf "$time_left" $i "work"
 		if [ "$i" = "$WORK" ]; then
-			notify-send "Get stuff done" "You can do this"
+			notify-send "Get shit done"
                 fi
 		sleep 1m
 	done
@@ -67,7 +67,7 @@ do
 	if $INTERACTIVE; then
 		read -d '' -t 0.001
 		echo -e "\a"
-		echo "Work over"
+		echo "Session is over"
 		read
 	fi
 
@@ -75,7 +75,7 @@ do
 	do
 		printf "$time_left" $i "pause"
 		if [ "$i" = "$PAUSE" ]; then
-                        notify-send "Time for a break" "Take a sip and stretch your arms"
+                        notify-send "Take a break"
                 fi
 		sleep 1m
 	done
@@ -84,7 +84,7 @@ do
 	if $INTERACTIVE; then
 		read -d '' -t 0.001
 		echo -e "\a"
-		echo "Pause over"
+		echo "Break is over"
 		read
 	fi
 done
